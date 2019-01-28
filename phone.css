@@ -1,0 +1,126 @@
+.dialerButton {
+	width: 175px;
+	height: 40px;
+	font-size: 25px;
+	border-radius: 5px;
+}
+
+.dialerButton:hover {background-color: lightgrey;}
+
+.contactListButton {
+	width: 175px;
+	height: 40px;
+	font-size: 25px;
+	border-radius: 5px;
+}
+
+.contactListButton:hover {background-color: lightgrey;}
+
+.addContactButton {
+	width: 175px;
+	height: 40px;
+	font-size: 25px;
+	border-radius: 5px;
+}
+
+.addContactButton:hover {background-color: lightgrey;}
+
+#enterNumber {
+	width: 318px;
+	height: 45px;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+#tab_bar {
+	height: 35px;
+	padding: 5px;
+	background-color: grey;
+}
+
+p {
+	height: 20px;
+	font-size: 40px;
+	margin-top: 10px;
+	font-family: "Arial";
+}
+
+.numButton {
+	width: 96px;
+	height: 50px;
+	font-size: 25px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+.numButton:hover {background-color: lightgrey;}
+
+#numPad {
+	width: 330px;
+	height: 300px;
+}
+
+.dialButton {
+	width: 156px;
+	height: 50px;
+	font-size: 25px;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+.dialButton:hover {background-color: lightgrey;}
+
+.clearButton {
+	width: 156px;
+	height: 50px;
+	font-size: 25px;
+	border-radius: 5px;
+}
+
+.clearButton:hover {background-color: lightgrey;}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#content {
+	padding-left: 10px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+}
+
+#name, #number, #email {
+	width: 400px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+label {
+	font-size: 25px;
+	font-family: "Arial";
+}
+
+.contact {
+	width: 150px;
+	height: 50px;
+	font-family: "Arial";
+	font-size: 15px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	margin: 5px;
+	display: inline-block;
+}
+
+.contact:hover {background-color: grey;}
+
+.contacts {
+	width: 600px;
+}
