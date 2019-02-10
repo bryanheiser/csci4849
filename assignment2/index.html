@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="phone.css">
+		<title>Bryan's Page</title>
+	</head>
+	<body>
+		<div id="tab_bar">
+			<button class="dialerButton" id="dialer">Dialer</button>
+			<button class="contactListButton" id="contactList">Contact List</button>
+			<button class="addContactButton" id="addContact">Add Contact</button>
+		</div>
+		<div id="content">
+			<div id="dialer_content">
+				<p><strong>Dialer</strong></p>
+				<form><input id="enterNumber"></input></form>
+				<div id="numPad">
+					<button class="numButton" id="1b_id">1</button>
+					<button class="numButton" id="2b_id">2</button>
+					<button class="numButton" id="3b_id">3</button>
+					<button class="numButton" id="4b_id">4</button>
+					<button class="numButton" id="5b_id">5</button>
+					<button class="numButton" id="6b_id">6</button>
+					<button class="numButton" id="7b_id">7</button>
+					<button class="numButton" id="8b_id">8</button>
+					<button class="numButton" id="9b_id">9</button>
+					<button class="numButton" id="*b_id">*</button>
+					<button class="numButton" id="0b_id">0</button>
+					<button class="numButton" id="#b_id">#</button>
+					<button class="dialButton" id="dial_id">Dial</button>
+					<button class="clearButton" id="clear_id">Clear</button>
+				</div>
+			</div>
+			<div id="contact_list_content">
+				<p><strong>Contact List</strong></p>
+				<div class="contacts">
+					<div class="contact">
+						<p1>Bryan Heiser</p1>
+					</div>
+					<div class="contact">
+						<p1>Jane Smith</p1>
+					</div>
+					<div class="contact">
+						<p1>John Doe</p1>
+					</div>
+					<div class="contact">
+						<p1>Bob Ross</p1>
+					</div>
+					<div class="contact">
+						<p1>Jimi Hendrix</p1>
+					</div>
+					<div class="contact">
+						<p1>Bob Dylan</p1>
+					</div>
+					<div class="contact">
+						<p1>Uma Thurman</p1>
+					</div>
+					<div class="contact">
+						<p1>Bo Jackson</p1>
+					</div>
+					<div class="contact">
+						<p1>Rowan Griffiths</p1>
+					</div>
+					<div class="contact">
+						<p1>Sarah Silverman</p1>
+					</div>
+					<div class="contact">
+						<p1>Walt Whitman</p1>
+					</div>
+				</div>
+			</div>
+			<div id="add_contact_content">
+				<p><strong>Add Contact</strong></p>
+				<form class="info">
+					<label for="name"><strong>Name</strong></label>
+					<input id="name" placeholder="Jane Smith">
+				</form>
+				<form class="info">
+					<label for="number"><strong>Phone Number</strong></label>
+					<input id="number" placeholder="123-456-7890">
+				</form>
+				<form class="info">
+					<label for="email"><strong>Email Address</strong></label>
+					<input id="email" placeholder="jane.smith@gmail.com">
+				</form>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="phone.js"></script>
+	</body>
+</html>
