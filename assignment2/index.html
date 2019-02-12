@@ -1,19 +1,19 @@
 <html>
-	<head>
+	<head role="banner">
 		<link rel="stylesheet" href="phone.css">
 		<title>Bryan's Page</title>
 	</head>
 	<body>
-		<div id="tab_bar">
-			<button id="dialer">Dialer</button>
-			<button id="contactList">Contact List</button>
-			<button id="addContact">Add Contact</button>
-			<button id="help">Help</button>
+		<div role="navigation" id="tab_bar">
+			<button aria-live="assertive" id="dialer">Dialer</button>
+			<button aria-live="assertive" id="contactList">Contact List</button>
+			<button aria-live="assertive" id="addContact">Add Contact</button>
+			<button aria-live="assertive" id="help">Help</button>
 		</div>
 		<div id="content">
-			<div id="dialer_content">
+			<div role="main" id="dialer_content">
 				<p><strong>Dialer</strong></p>
-				<form><input id="enterNumber"></input></form>
+				<form><input aria-live="assertive" id="enterNumber"></input></form>
 				<div id="numPad">
 					<button class="numButton" id="one_id">1</button>
 					<button class="numButton" id="two_id">2</button>
@@ -33,7 +33,7 @@
 					<button class="clearButton" id="clear_id">Clear</button>
 				</div>
 			</div>
-			<div id="contact_list_content">
+			<div role="main" aria-live="polite" id="contact_list_content">
 				<p><strong>Contact List</strong></p>
 				<table>
 					<tr>
@@ -98,23 +98,24 @@
 					</tr>
 				</table>
 			</div>
-			<div id="add_contact_content">
+			<div role="main" id="add_contact_content">
 				<p><strong>Add Contact</strong></p>
 				<form class="info">
 					<label for="name"><strong>Name</strong></label>
-					<input id="name" placeholder="Jane Smith">
+					<input aria-live="polite" id="name" placeholder="Jane Smith">
 				</form>
 				<form class="info">
 					<label for="number"><strong>Phone Number</strong></label>
-					<input id="number" placeholder="123-456-7890">
+					<input aria-live="polite" id="number" placeholder="123-456-7890">
 				</form>
 				<form class="info">
 					<label for="email"><strong>Email Address</strong></label>
-					<input id="email" placeholder="jane.smith@gmail.com">
+					<input aria-live="polite" id="email" placeholder="jane.smith@gmail.com">
 				</form>
 			</div>
-			<div id="help_content">
+			<div role="main" id="help_content">
 				<p><strong>Keyboard Shortcuts</strong></p>
+				<img role=complementary" src="http://www.pfpenergy.co.uk/media/1184/help-and-support.png" alt="Help and Support">
 				<table>
 					<tr>
 						<th>Shortcut</th>
@@ -144,6 +145,10 @@
 						<td>Delete</td>
 						<td>Clears the Dialer input box.</td>
 					</tr>
+					<tr>
+                                                <td>Image Source</td>
+                                                <td>https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjIsfioxLbgAhVk4YMKHf0sA1YQjRx6BAgBEAU&url=http%3A%2F%2Fwww.pfpenergy.co.uk%2Fhelp-support%2F&psig=AOvVaw1H_pT2TTMY94PfHfrXvtHF&ust=1550072531799967</td>
+                                        </tr>
 				</table>
 			</div>
 		</div>
