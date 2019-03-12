@@ -96,6 +96,8 @@ $(document).keypress(function(event) {
 		selectNext();
 	} else if (event.key == "s") {
 		clickSelectedItem();
+	} else if (event.key == "p") {
+		selectPrevious();
 	}
 })
 
